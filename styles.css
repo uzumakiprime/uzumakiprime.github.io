@@ -6,7 +6,7 @@
 	position: relative; 
 }
 
-*{margin: 0; padding: 1px; box-sizing: border-box; }
+*{margin: 0; padding: 100px; box-sizing: border-box; }
 
 .grandparent{width: 100vw; height:100vh; background: #dfe6e9; color: #fff;}
 
