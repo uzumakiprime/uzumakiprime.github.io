@@ -16,4 +16,4 @@
 .child:first-child {background: #ffbe76}
 .child:last-child {background: #ff7979}
 
- @media (max-width: 768px){ .grandparent{height:auto;}
+ @media (max-width: 768px){ .grandparent{height:auto;}}
