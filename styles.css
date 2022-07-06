@@ -10,10 +10,10 @@
 
 .grandparent{width: 100vw; height:100vh;}
 
-h1{font-size: 4vw; padding: 10px 0; text-align: center; color: #000000;}
+h1{font-size: 4vw; padding: 0; text-align: center; color: #000000;}
 p{text-align: center;}
 
-.parent{width: 80vw; height: auto; margin: auto; dislay: flex; justify-content: space-around; flex-wrap: wrap;	}
+.parent{width: 80vw; height: auto; margin: auto; display: flex; justify-content: space-around; flex-wrap: wrap;}
 
 .child{ height:200px; background:#81ecec; flex:1 1 200px; margin: 20px;}
 .child:first-child {background: #ffbe76}
