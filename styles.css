@@ -8,9 +8,9 @@
 
 *{margin: 0; padding: 0px; box-sizing: border-box; }
 
-.grandparent{width: 100vw; height:100vh; background: #ffffff color: #fff;}
+.grandparent{width: 100vw; height:100vh;  color: #fff;}
 
-.parent{wifht: 80vw; height: auto; margin: auto; background: #636e72; dislay: flex; }
+.parent{wifht: 80vw; height: auto; margin: auto; background: #636e72; dislay: flex; justify-content: space-around; }
 
 .child{width:200px; height:200px; background:#81ecec;}
 .child:first-child {background: #ffbe76}
