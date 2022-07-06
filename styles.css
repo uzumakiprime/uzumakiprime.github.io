@@ -5,3 +5,14 @@
     padding: 10px;
 	position: relative; 
 }
+
+*{margin: 0; padding: 1px; box-sizing: border-box; }
+
+.grandparent{width: 100vw; height:100vh; background: #dfe6e9; color: #fff;}
+
+.parent{wifht: 80vw; height: auto; margin: auto; background: #636e72; }
+
+.child:first-child {background: #ffbe76}
+.child:last-child {background: #ff7979}
+
+ @media (max-width: 768px){ .grandparent{height:auto;}
