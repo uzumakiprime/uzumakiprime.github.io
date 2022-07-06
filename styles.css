@@ -10,8 +10,9 @@
 
 .grandparent{width: 100vw; height:100vh; background: #dfe6e9; color: #fff;}
 
-.parent{wifht: 80vw; height: auto; margin: auto; background: #636e72; }
+.parent{wifht: 80vw; height: auto; margin: auto; background: #636e72; dislay: flex; }
 
+.child{width:200px; height:200px; background:#81ecec;}
 .child:first-child {background: #ffbe76}
 .child:last-child {background: #ff7979}
 
