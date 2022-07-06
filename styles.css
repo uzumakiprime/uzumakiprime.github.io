@@ -13,7 +13,7 @@
 h1{font-size: 4vw; padding: 50px 0; text-align: center; color: #000000;}
 p{text-align: center;}
 
-.parent{wifht: 80vw; height: auto; margin: auto; dislay: flex; justify-content: space-around; }
+.parent{wifht: 80vw; height: auto; margin: auto; dislay: flex; justify-content: space-around; flex-wrap: wrap;}
 
 .child{width:200px; height:200px; background:#81ecec;}
 .child:first-child {background: #ffbe76}
