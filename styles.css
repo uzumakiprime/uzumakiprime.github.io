@@ -154,7 +154,7 @@ li {
 
 .sideBar {
   position: relative;
-  width: 0;
+  width: 100vh;
   height: 100vh;
   display: flex;
   flex-direction: column;
