@@ -6,6 +6,8 @@
  fontawesome.com  
  favicon.cc  
  icons8.com  
+ this-person-does-not-exist.com  
+ 
  w3schools.com/icons/default.asp  
  w3schools.com/colors/colors_picker.asp
  
