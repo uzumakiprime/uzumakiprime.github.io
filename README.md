@@ -1,7 +1,6 @@
 # uzumakiprime.github.io
  Copyright ©2022 All rights reserved  to Sohonsagar Singha.
  
-
  some links used:
 
  fontawesome.com  
