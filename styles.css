@@ -643,3 +643,20 @@ footer {
   background-color: Black;
   color: white;
 }
+@media (min-width: 768px){
+
+.btn {
+  font-size: 10px;
+  background-color: Grey;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  
+}
+
+.btn:hover {
+  background-color: Black;
+  color: white;
+}
+}
