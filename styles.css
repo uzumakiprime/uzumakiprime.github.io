@@ -627,3 +627,19 @@ footer {
 }
 
 /* RESPONSIVE FOOTER DESIGN === ENDING */
+
+/* DOWNLOAD BUTTON */
+.btn {
+  font-size: 20px;
+  background-color: Grey;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  
+}
+
+.btn:hover {
+  background-color: Black;
+  color: white;
+}
