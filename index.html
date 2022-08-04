@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+	<title>PrimeS</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico" >
+	<script src="https://kit.fontawesome.com/c1e38da5db.js" crossorigin="anonymous"></script> <!-- fontawesome.com -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+
+<body>
+ 
+	<!-- NAVBAR -->
+
+    <div id="navbar">
+      <div class="lowerNav">
+        <div id="logo">
+          <h1>Primes</h1>
+        </div>
+        <div class="items">
+          <a href="#" onclick="scrollToTop()">HOME</a>
+          <a href="#aboutus">ABOUT</a>
+          <a href="#footer">CONTACT</a>
+        </div>
+      </div>
+    </div>
+    
+	<div class="mobile-nav">
+      <div id="logo">
+        <h1>Primes</h1>
+      </div>
+    </div>  
+	
+	<!-- <script>    
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() 
+	{
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) 
+	{
+        document.getElementById("navbar").style.top = "0";
+	} 
+	else 
+	{
+        document.getElementById("navbar").style.top = "-50px";
+	}
+    prevScrollpos = currentScrollPos;
+    }
+    </script> -->
+	
+	<!-- SCROLL UP BUTTON -->
+	
+	
+	<button onclick="topFunction()" id="myBtn2"  title="Go to top"><i style='font-size:24px' class="fa-solid fa-angles-up"></i></button>
+	<script>   
+        var mybutton = document.getElementById("myBtn2");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() 
+		{    
+		    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) 
+			{
+			    mybutton.style.display = "block";
+			} 
+			else 
+			{
+                mybutton.style.display = "none";
+			}
+        }
+        function topFunction() 
+		{
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+	    }
+    </script>
+    
+	
+	<!-- WELCOME TO MY WEBSITE BOX -->
+	
+	
+	<div class="img-section">
+      <img class="welcome-img" src="\images\introbanner.jpg">
+      <div class="img-desc">
+        <span>
+          Welcome to My Website
+          <p>
+            Scroll down to know more about
+            <br>
+            me.
+          </p>
+        </span>
+      </div>
+    </div>
+	
+	
+	
+	<!-- ABOUT ME -->
+    
+    <section id="aboutus" class="about">
+      <div class="content">
+        <span>Hello, I'am <br>Sohonsagar Singha</span>
+        <p>
+          Currently in my 3rd year of Computer Science and Engineering at Assam University, Silchar.
+          I am a hard-working, honest individual. I am a good timekeeper, always willing to learn new skills. 
+		  I am friendly, helpful and polite, have a good sense of humor. 
+		  I am able to work independently in busy environments and also within a team setting. 
+		  I am outgoing, tactful, and able to listen effectively when solving problems.<br /><br />
+          My expertise is in web development, ethical hacking, and programming. 
+		  I have done internships related to Artificial Intelligence, Machine Learning, Web Development, and Ethical hacking. 
+		  I have been coding for the past 5 years and still learning.
+        </p>
+      </div>
+      <img src="\images\avatar.jpg" alt="avatar" />
+    </section>
+
+    
+	
+	
+	
+	
+	
+	<!-- QUALIFICATION-->
+
+    <div id="services" class="exp-int">
+      <div class="exp-int-header">
+        <span>My Qualifications</span>
+        <p>
+          Qualifications I achieved so far.<br> <a href="docs\CV.pdf" target="_blank"><button class="btn"> Download CV</button></a>
+        </p>
+      </div>
+      <div class="exp-int-grid">
+        <div class="exp-int-grid-item wow fadeInUp">
+          <div>
+            <img class="exp-int-svg" src="\images\graduation-cap.svg" alt="grad-cap"/>
+          </div>
+          <div class="exp-int-desc">
+            <span>HSLC 2016-2017</span>
+            <p>
+              Completed HSLC from Kendriya Vidyalaya, BSF, Raninagar, Jalpaiguri, W.B., 735133.
+            </p>
+          </div>
+        </div>
+        <div class="exp-int-grid-item wow fadeInUp">
+          <div>
+            <img class="exp-int-svg" src="\images\graduation-cap.svg" alt="grad-cap"/>
+          </div>
+          <div class="exp-int-desc">
+            <span>HSSLC 2017-2019</span>
+            <p>
+              Completed HSSLC from Maharishi Vidya Mandir, Silchar, Assam, 788005.
+            </p>
+          </div>
+        </div>
+        <div class="exp-int-grid-item wow fadeInUp">
+          <div>
+            <img class="exp-int-svg" src="\images\graduation-cap.svg" alt="grad-cap"/>
+          </div>
+          <div class="exp-int-desc">
+            <span>B.TECH 2019-ongoing</span>
+            <p>
+              Currently pursuing B.tech from Assam University, Silchar, Assam, 788011.
+            </p>
+          </div>
+        </div>
+        <div class="exp-int-grid-item wow fadeInUp">
+          <div>
+            <a href="https://www.linkedin.com/in/sohonsagar-singha-342170222/" target="_blank"><img class="exp-int-svg" src="\images\graduation-cap.svg" alt="grad-cap"/></a>
+          </div>
+          <div class="exp-int-desc">
+            <span>Certified Ethical Hacker</span>
+            <p>
+              Completed CEH certification course from NIELIT-India.
+            </p>
+          </div>
+        </div>
+        <div class="exp-int-grid-item wow fadeInUp">
+          <div>
+            <a href="https://www.linkedin.com/in/sohonsagar-singha-342170222/" target="_blank"><img class="exp-int-svg" src="\images\graduation-cap.svg" alt="grad-cap"/></a>
+          </div>
+          <div class="exp-int-desc">
+            <span>Python programming</span>
+            <p>
+              Completed Python internship from Internshala.
+            </p>
+          </div>
+        </div>
+        <div class="exp-int-grid-item wow fadeInUp">
+          <div>
+            <a href="https://www.linkedin.com/in/sohonsagar-singha-342170222/" target="_blank"><img class="exp-int-svg" src="\images\graduation-cap.svg" alt="grad-cap"/></a>
+          </div>
+          <div class="exp-int-desc">
+            <span>Web developer</span>
+            <p>
+              Completed front-end and back-end web development internship from GMAT Verzeo.
+            </p>
+          </div>
+        </div>
+		
+      </div>
+    </div>
+
+    
+	
+	
+	<!-- FOOTER -->
+
+    <footer id="footer">
+    <section class="footer-container">
+		<div class="column-follow">
+          <span>Follow Me</span>
+          <div class="content">
+            <p>
+              
+			  Sohonsagar Singha<br>
+              
+            </p>
+            <ul>
+			    <li><button onclick="myFunctionwp()"><img src="https://img.icons8.com/color/32/000000/whatsapp--v1.png"/></button>
+			        <script> function myFunctionwp() { location.href="https://wa.me/+919394355575?text=Hello" }
+                    </script>
+			    </li>
+                <li><button onclick="myFunctionfb()"><img src="https://img.icons8.com/color/32/000000/facebook-new.png"/></button>
+			        <script> function myFunctionfb() { location.href="https://www.facebook.com/tnt.primes.7/" }
+                    </script>
+			    </li>
+                
+				<li><button onclick="myFunctionig()"><img src="https://img.icons8.com/color/32/000000/instagram-new--v1.png"/></button>
+			        <script> function myFunctionig() { location.href= "https://www.instagram.com/p_r_i_m_e_s/" }
+                    </script>
+			    </li>
+              
+			    <li><button onclick="myFunctionld()"><img src="https://img.icons8.com/color/32/000000/linkedin.png"/></button>
+			        <script> function myFunctionld() { location.href="https://www.linkedin.com/in/sohonsagar-singha-342170222/" }
+                    </script>
+				</li>
+					
+			    <li><button onclick="myFunctiongh()"><img src="https://img.icons8.com/color/32/000000/github--v1.png"/></button>
+			        <script> function myFunctiongh() { location.href="https://github.com/uzumakiprime" }
+                    </script>
+				</li>
+              
+			    <li><button onclick="myFunctiontw()"><img src="https://img.icons8.com/color/32/000000/twitter--v1.png"/></button>
+			        <script> function myFunctiontw() { location.href="https://twitter.com/walker_prime" }
+                    </script>
+				</li>
+            </ul>
+			
+          </div>
+        </div>
+		
+    </section>
+    </footer>
+</body>
+
+</html>
